@@ -1,0 +1,339 @@
+#navbar{
+    display: none;
+    position: fixed;
+    bottom: -2px;
+    top: auto;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background: #000;
+  }
+
+  
+  .navbar-collapse a{
+    padding: 0;
+    width: 110%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid #312a2a;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .a-text{
+    margin-left: 10px;
+  }
+  .dropdown-text{
+    margin-left: 30px;   
+  }
+  
+  
+  
+  .nav{
+    list-style: none;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+  }
+  
+  .main-block-container{
+    z-index: 15;
+    position: relative;
+    margin:auto;
+  }
+  
+  .navbar-logo {
+    bottom: 8px;
+  }
+  
+  #navbar .logo-href{
+    display: block;
+    width: 190px;
+    margin-right: 60px;
+  }
+  
+  .navbar-logo img{
+    width: 40%;
+  }
+  
+  .navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin: 8px 0px;
+    background-image: none;
+    border-radius: 4px;
+    display: block;
+  }
+  
+  .navbar-collapse-wrapper{
+    width: max-content;
+    float: none;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .sr-only{
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .main-block{
+    overflow: hidden;
+    position: relative;
+    padding: 130px 0 30px;
+    height: 803px;
+    color: #fff;
+    font-family: Montserrat;
+  }
+  
+  video{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top:0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 5;
+    filter: blur(3px);
+    transform: scale(1.04);
+    filter:brightness(0.2)
+  
+  }
+  
+  .druplicon-img{
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+  }
+  
+  .druplicon-img img{
+    width: 380px;
+    height: 370px;
+  }
+  
+  .row{
+    margin: 0 -15px 0 0;
+  }
+  
+  .main-block-container{
+    top: -100px;
+  }
+  
+  .main-block h1{
+    font-size: 24px;
+    line-height: 60px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .undertitle-description{
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #fff;
+    opacity: 80%;
+    margin-bottom: 55px;
+    text-align: center;
+  }
+  
+  .undertitle-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+    padding: 20.5px 80px;
+    width: 220px;
+    text-align: center;
+    border: 2px solid #f14d34;
+    border-radius: 5px;
+  }
+  
+  
+  .containter-udretitle-btn{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .undertitle-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #f14d34;
+    transition: background-color 400ms;
+  }
+  
+  .main-block-container .col-xs-6 {
+    width: 50%;
+  }
+  
+  .achivements{
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .achivement{
+    margin-bottom: 32px;
+  }
+  
+  .achivement-wrapper{
+    border-left: 3px solid #f14d34;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    min-height: 80px;
+    height: 100%;
+  }
+  
+  .first-achivement-title{
+    font-size: 48px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .achivement-title{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .achivement-description{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: white;
+    opacity: 70%;
+  }
+  
+  .first-achivement-title img{
+    position: absolute;
+    top: -16px;
+  }
+  
+  .Cmptn {
+    padding: 100px 0;
+    font-family: Montserrat;
+  }
+  .Cmptn h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #050c33;
+    margin: 0 0 20px;
+  }
+  .Cmptn--description {
+    margin-bottom: 75px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+  }
+  .Cmptn-block{
+    margin-bottom:60px;
+  }
+  .CmptnImg{
+    position:relative;
+    margin-bottom:30px;
+  }
+  .Cmptn-title{
+    font-weight: 500;
+    font-size: 14px;
+    color: #4f5a73;
+  }
+  
+  .Cmptn .col-sm-3{
+  width: 50%;
+  }
+  .Cmptn{
+    margin-top: 55px;
+  }
+  
+  .support{
+    font-family: Montserrat;
+    margin-bottom: -212px;
+  }
+  
+  .support h2 {
+      margin-bottom: 55px;
+      text-align: center;
+      color: #050c33;
+      font-weight: bold;
+      font-size: 24px;
+  }
+  .support-blocks{
+      margin-bottom: -212px;
+      padding: 0 12px;
+      position:relative;
+      z-index:20;
+  }
+  
+  
+  .sup-pics{
+      margin-bottom: 5px;
+  }
+  .support-block{
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 20px 20px 40px rgba(5,12,51,.05);
+      margin-left: -12px;
+      margin-right: -12px;
+      height: 100%;
+      position: relative;
+      padding: 25px 25px 45px;
+      min-height: 292px;
+  }
+  .sup-block-text{
+      position: relative;
+      z-index: 10;
+      font-weight: 500;
+      font-size: 16px;
+      color: #4e5a73;
+      line-height: 1.37;
+  }
+  .sup-block-icon{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+  }
+  .sup-num{
+         font-weight: bold;
+      font-size: 12px;
+      color: #828a9b;
+      margin-bottom: 20px;
+      font-family: Montserrat;
+  }
+  .sup-block-title{
+         font-weight: bold;
+      font-size: 18px;
+      color: #050c33;
+      line-height: 1.22;
+      margin-bottom: 15px;
+  }
+  
