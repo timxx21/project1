@@ -336,6 +336,7 @@
       line-height: 1.22;
       margin-bottom: 15px;
   }
+  
   .expertise{
     padding: 230px 0 230px 0;
     position:relative;
@@ -592,6 +593,7 @@
   .tasks h2{
     font-size: 24px ;
   }
+  
   
   .human{
     text-align: left;
@@ -934,8 +936,11 @@
   
   .c_box input{
     display: none;
-  }   
-label.c_box input[type='checkbox']:checked~span{
+  }
+  
+  
+  
+  label.c_box input[type='checkbox']:checked~span{
     opacity: 1;
     background: url(./img/checked-icon.svg) no-repeat center;
     background-size: 25px 25px;
